@@ -1,0 +1,53 @@
+/*Renkler*/
+.dark-blue{
+    background: #11116f;
+}
+.light-blue{
+    background: #a8a7f0;
+}
+.white{
+    background: #ffffff;
+}
+/*Ortala*/
+.text-center{
+    text-align: center;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+/*Buton*/
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+  }
+  .btn-primary {
+    background: #5d5be3;
+  }
+  .btn-primary:hover {
+    color: #000000;
+    background: #fff;
+    border: 1px solid #000000;
+  } 
+  .btn-block {
+    width: 100%;
+    text-align: center;
+  }
+/*Form*/
+.form-group {
+  padding: 0.25rem 0;
+}
+.form-group label {
+  display: block;
+}
+.form-control {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 5px;
+}
+

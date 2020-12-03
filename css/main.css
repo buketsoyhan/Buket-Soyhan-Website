@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header(navbar)*/ 
+#navbar{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li {
+    padding: 0.5rem;
+}
+
+#navbar ul li:hover{
+    border-radius: 20px;
+    background: #bbb1bb;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*Section(Home)*/
+
+#home {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid white;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2{
+    margin: 0.75rem;
+    padding: 0.25rem;
+}
+#home .name i{
+    opacity: 0.7;
+}
+#home .name a{
+    display: flex;
+}
+
+/*Section(Training)*/
+
+#training {
+    color: white;
+}
+#trainig i{
+    font-size: 0.5rem;
+}
+#trainig p{
+    font-size: small;
+}
+#training .educations{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+ /*Section(Courses*/
+
+#courses {
+    color: #000000;
+    padding: 1rem;
+  }
+.courses {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+  
+.courses .course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 12rem;
+}
+  
+.courses .course .course-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+.courses .course .course-image img {
+    border-radius: 5px;
+}
+
+.courses .course .course-info .title {
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+}
+.courses .course .course-info .description {
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    opacity: 0.8;
+}
+.courses .course .course-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.8;
+}
+.courses .course .course-info .rating {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+
+#contact{
+    color: #ffffff;
+    padding: 1rem;
+}
+#contact .contact-form{
+   max-width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+#contact .contact-form ul{ 
+
+   list-style-type: none;
+   display: flex;
+   margin-top: 1rem;
+   align-self: center;
+}
+
+#contact .contact-form ul li a{
+   padding: 0.75rem;
+   font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover{
+   opacity: 0.70;
+}
